@@ -1,0 +1,162 @@
+
+.header{
+    display: flex;
+    border-bottom-style:solid;
+    justify-content: space-between;
+    border-bottom-color: rgb(165, 162, 169);
+    border-bottom-width: 1px;
+    flex-direction: row;
+    height:60px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+    z-index: 1;
+
+}
+
+.left-section{
+    
+    display:flex;
+    align-items: center;
+
+}
+.hamburger{
+    height: 24px;
+    margin-left: 25px;
+
+}
+.youtube-logo{
+    height: 23px;
+    margin-left: 25px;
+}
+
+.middle-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.search-bar{
+    height: 35px;
+    flex:1;
+    padding-left: 10px;
+    font-family: Roboto;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(192,192,192);
+    box-shadow: inset 0px 0px 3px rgb(0,0,0,0.15);
+    width: 0;
+}
+.search-bar::placeholder{
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.Search-button{
+    height: 39px;
+    margin-right: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    width:63px;
+    margin-left: -5px;
+    
+}
+.search-icon{
+    height: 23px;
+    vertical-align: middle;
+}
+
+.mic-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 40px;
+}
+.mic-image{
+    height: 25px;
+    vertical-align: bottom;
+    object-position: -0.6px;
+}
+
+
+.right-section{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-shrink: 0;
+}
+
+.upload-button{
+    height: 35px;
+    margin-right: 14px;
+    background-color: white;
+    border:none;
+
+}
+.upload-icon{
+    height: 23px;
+    padding-top: 2px;
+}
+
+.youtube-app-button{
+    height: 35px;
+    margin-right: 14px;
+    background-color: white;
+    border:none;
+}
+.youtube-app-icon{
+    height: 23px;
+    padding-top: 2px;
+}
+.notification-button{
+    height: 35px;
+    margin-right: 14px;
+    background-color: white;
+    border:none;
+    position: relative;
+}
+.notification-icon{
+    height: 23px;
+    padding-top: 2px;
+    
+
+}
+.thumbnail-button{
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    border: none;
+    border-radius: 60px;
+    margin-right: 20px;
+
+}
+.thumbnail-icon{
+    height: 100%;
+    border-radius: 100px;
+
+}
+
+.notification-count{
+    font-family: roboto;
+    border-color: white;
+    
+    font-size: 8px;
+    position: absolute;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 100px;
+    top:0;
+    right:5px;
+    background-color: red;
+    color: white;
+   
+}

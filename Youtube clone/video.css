@@ -1,0 +1,103 @@
+
+/* Comment in css */
+div{
+    vertical-align: top;
+}
+
+.thumbnail-row{
+    width: 100%; 
+    margin-bottom: 5px; 
+    vertical-align: top;  
+    margin-bottom: 10px;
+    border-radius: 12px;
+    position: relative;
+}
+.thumbnail{
+    width: 100%; 
+    
+    border-radius: 12px;
+   
+}
+
+
+.time{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: absolute;
+    z-index: 2;
+    bottom:10px;
+    right: 10px;
+    border-radius: 3px;
+    padding: 4px;
+    font-family: roboto;
+    font-size: 13px;
+}
+
+.channel{
+    border-radius: 50px;
+    width: 100%;
+
+}
+
+.video-title{
+     
+    font-family: arial; 
+    line-height: 20px;
+   
+    
+    font-size: 15px;
+    margin-bottom: 14px;
+       
+}
+.video-author ,.video-stats{
+    font-size: 13px;
+    font-family: roboto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color:rbg(96,96,96);
+}
+.video-stats{
+    margin-top: 0px;
+}
+.video-preview{
+    display: grid;
+    grid-template-columns: 40px 2fr;
+    grid-template-rows: 100px;
+    
+}
+
+.channel-logo{
+    
+    width: 40px;
+    
+
+}
+.text{
+    width: 100%;
+    padding-left: 9px;  
+}
+
+.grid-block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 17px;
+    row-gap: 40px;
+}
+
+@media (min-width: 751px) and (max-width: 1000px){
+    .grid-block{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 750px){
+    .grid-block{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1001px){
+    .grid-block{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
