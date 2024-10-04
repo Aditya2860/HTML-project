@@ -1,0 +1,74 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+   
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 600px; 
+    margin-bottom: 0px;
+    padding: 0; 
+    font-family: Roboto;
+    font-weight: 500; 
+}
+
+.info h1{
+    font-size: 2.6rem;
+    margin: 0px ;
+    margin-bottom: 10px;
+}
+
+.info span{
+    color: #0ef; /* Light Orange */
+
+}
+.info p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+} 
+
+
+.buttons{
+    display: flex;
+    gap: 3rem;
+    font-size: 1.7rem;
+   
+}
+.buttons i {
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 100px;
+    border:solid;
+}
+.buttons i:hover{
+    color: #0ef;
+}
+img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 250px;
+    object-position: -62px;
+}
+
+.about {
+    display :flex;
+    gap: 2rem;
+}
+.about i {
+    display: flex;
+    gap: 3rem;
+    font-size: 44px;
+}
+
+.education{
+ margin-bottom: 0;
+}
+.edu{
+    padding-left:100px;
+}
