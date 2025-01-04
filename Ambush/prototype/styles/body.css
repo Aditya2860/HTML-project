@@ -1,0 +1,72 @@
+@font-face {
+    font-family: formula;
+    src: url('Formula1-Bold_web_0.ttf') ,
+    url('Formula1-Regular_web_0 (1).ttf');
+}
+
+
+body{
+    font-family: formula;
+}
+
+.block{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;   
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.frame img{
+    /* height: 500px; */
+    padding-left: 3rem;
+    width: 370px;
+    box-shadow: -1px 1px 10px rbga(0,0,0,0.5);
+}
+.arrow-left ,.arrow-right{
+    height: 80px;
+    cursor: pointer;
+}
+
+.frame{
+    height: 500px;
+    width: 1000px;
+
+    overflow: hidden;
+    /* border: solid; */
+}
+
+.slider{
+    display: flex;
+    object-fit: cover;
+    transition: all 1s ease;
+}
+
+.slide{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    /* border: solid green; */
+}
+.img{
+    flex: 1;
+    object-fit: cover;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 600px; 
+    margin-bottom: 0px;
+    padding: 0; 
+    font-weight: 500; 
+}
+.discription{
+    width: 27rem;
+    margin-left: 2rem;
+    /* border: solid; */
+}

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: formula;
+    src: url('Formula1-Bold_web_0.ttf') ,
+    url('Formula1-Regular_web_0 (1).ttf');
+}
+
+
+body{
+    font-family: formula;
+}
+
+
+.container{
+    
+    display: flex;
+    height: 100%;
+    
+   padding-left: 30px;
+   /* margin-bottom: 20vh; */
+   padding-top: 11rem;
+   
+}
+.img-back{
+    display: flex;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    z-index: -1;
+    position:absolute;
+    object-fit: fill;
+}
+
+.info{
+    display: flex;
+    /* flex-direction: column; */
+    /* width: 100%; */
+    /* justify-content: center; */
+    /* margin-bottom: 230px; */
+
+  
+}
+
+.info h2{
+    font-family: formula;
+    
+    font-size: 3rem;
+    width: 700px;
+    /* padding-top:100 ; */
+    color: rgb(255, 255, 255);
+    /* color: brown; */
+    line-height: 60px;
+    
+   
+}
+.right-head i{
+    font-size: 17px;
+    border: solid;
+    padding: 7px;
+    border-radius: 30px;
+}
+
+.info h2{
+    animation: s 1s ease backwards;
+    animation-delay: calc(.3s* var(--i));
+}
+
+
+@keyframes slideright{
+    0%{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes s{
+    0%{
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width:700px){
+  .container{
+    padding-top: 10px;
+  }
+}
