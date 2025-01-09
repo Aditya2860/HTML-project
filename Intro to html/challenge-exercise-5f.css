@@ -1,0 +1,19 @@
+p{
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: gray;
+}
+.money{
+    font-size: 40px;
+    font-weight:500;
+    color: black;
+}
+.rate{
+    color: rgb(11, 114, 11);
+    margin-top: 7px;
+}
+.val{
+    color: rgb(216, 5, 5);
+}
